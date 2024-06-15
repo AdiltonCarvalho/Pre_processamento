@@ -141,7 +141,7 @@ def main():
             dataset.drop(['data_ref', 'index'], axis=1, inplace=True)
 
             # Chama a função para treinar o modelo
-            treina_modelo(df_sem_nulos)
+            treina_modelo(dataset)
 
 if __name__ == "__main__":
     main()
