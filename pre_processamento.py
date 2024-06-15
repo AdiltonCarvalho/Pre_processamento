@@ -75,7 +75,7 @@ def main():
             st.markdown("<h2 style='text-align: center;'>Experimento de Aprendizado de Máquina</h2>", unsafe_allow_html=True)
 
             # Amostra aleatoriamente 40.000 linhas do DataFrame df_sem_nulos
-            dataset = df_sem_nulos.sample(10000)
+            dataset = df_sem_nulos.sample(5000)
 
             # Remove as colunas 'data_ref' e 'index' do DataFrame 'dataset'
             dataset.drop(['data_ref', 'index'], axis=1, inplace=True)
@@ -135,7 +135,7 @@ def main():
             st.markdown("<h2 style='text-align: center;'>Experimento de Aprendizado de Máquina</h2>", unsafe_allow_html=True)
 
             # Amostra aleatoriamente 40.000 linhas do DataFrame df_sem_nulos
-            dataset = df_sem_nulos.sample(10000)
+            dataset = df_sem_nulos.sample(5000)
 
             # Remove as colunas 'data_ref' e 'index' do DataFrame 'dataset'
             dataset.drop(['data_ref', 'index'], axis=1, inplace=True)
